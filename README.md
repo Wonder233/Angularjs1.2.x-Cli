@@ -7,7 +7,7 @@
 
 ## Quick start
 ```
-$ cd powerPlant
+$ cd Angularjs1.2.x-Cli
 $ npm install
 $ npm start
 ```

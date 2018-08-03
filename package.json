@@ -1,7 +1,7 @@
 {
-  "name": "powerplant",
+  "name": "angularjs1.2.x-cli",
   "version": "0.0.1",
-  "description": "电厂项目。",
+  "description": "搭建的兼容ie8的项目框架，使用 angularjs1.2.30+ui-router0.4.3+layui+webpack，可以使用ES5+ES6。",
   "eslintConfig": {
     "env": {
       "browser": true,
