@@ -17,7 +17,6 @@
   "dependencies": {
     "@uirouter/angularjs": "^0.4.3",
     "angular": "1.2.30",
-    "jquery": "^1.9.1",
     "object-assign": "^4.1.0"
   },
   "devDependencies": {
