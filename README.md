@@ -15,6 +15,8 @@ $ npm start
 
 ## 开发
 
+开发过程中无法使用 IE8 进行查看，但构建成功后运行 dist 下的 index 可以用 IE8 运行。
+
 ### 构建
 
  - 构建并压缩项目: `npm run build`
