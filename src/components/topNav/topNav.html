@@ -1,0 +1,39 @@
+<div class="layui-header top-nav-header">
+    <a>
+        <img class="top-nav-header-logo" src="./image/logo.png" alt="logo">
+    </a>
+    <div class="top-nav-header-btn">
+        <button class="layui-btn layui-btn-small btn-nav"><i class="layui-icon">&#xe65f;</i></button>
+    </div>
+
+    <!-- 顶部左侧添加选项卡监听 -->
+    <ul class="layui-nav">
+        <li class="layui-nav-item" ui-sref="realtimeWarning" ui-sref-active="layui-this">
+            <a href="javascript:;"><i class="layui-icon">&#xe667;</i>实时预警</a>
+        </li>
+        <li class="layui-nav-item" ui-sref="warningManage" ui-sref-active="layui-this">
+            <a href="javascript:;"><i class="layui-icon">&#xe667;</i>预警管理</a>
+        </li>
+        <li class="layui-nav-item" ui-sref="pointManage" ui-sref-active="layui-this">
+            <a href="javascript:;"><i class="layui-icon">&#xe667;</i>测点管理</a>
+        </li>
+        <li class="layui-nav-item" ui-sref="modelManage" ui-sref-active="layui-this">
+            <a href="javascript:;"><i class="layui-icon">&#xe667;</i>虚拟模型管理</a>
+        </li>
+    </ul>
+
+    <!-- 顶部右侧添加选项卡监听 -->
+    <ul class="layui-nav top-nav-header-user-nav">
+        <li class="layui-nav-item">
+            <a class="name" href="javascript:;"><i class="layui-icon">&#xe66f;</i> Admin </a>
+            <dl class="layui-nav-child">
+                <dd><a href="javascript:;" href-url="demo/btn.html">
+                    <i class="layui-icon">&#xe621;</i>修改密码</a>
+                </dd>
+                <dd><a href="javascript:;" href-url="demo/btn.html">
+                    <i class="layui-icon">&#x1006;</i>退出</a>
+                </dd>
+            </dl>
+        </li>
+    </ul>
+</div>

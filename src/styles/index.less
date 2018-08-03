@@ -1,0 +1,129 @@
+// login
+.login-main {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 350px;
+  margin: 0 auto;
+
+  header {
+    margin-top: 150px;
+    margin-bottom: 15px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  form {
+    margin-bottom: 15px;
+    .layui-input-inline {
+      margin-bottom: 15px;
+      width: 100%;
+      input,
+      button {
+        width: 100%;
+      }
+    }
+    .login-btn {
+      margin-bottom: 5px;
+    }
+  }
+}
+
+// plant
+.plant-side-nav {
+  .plant-side-nav-header {
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #797979;
+    border-bottom: 1px solid #797979;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .layui-nav {
+    padding: 0 !important;
+  }
+  .layui-tab {
+    margin: 0;
+    .layui-tab-title {
+      border-bottom: 1px solid #797979;
+      li{
+          width: 70px;
+      }
+    }
+  }
+}
+
+// tools
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.tc {
+  text-align: center;
+}
+
+.max-auto {
+  max-height: 450px;
+  overflow-y: auto;
+}
+
+// overwrite layui css
+html body .layui-nav .layui-nav-bar {
+  opacity: 0 !important;
+  overflow: hidden !important;
+}
+
+.layui-nav .layui-this:after,
+.layui-nav-bar,
+.layui-nav-tree .layui-nav-itemed:after {
+  background-color: transparent;
+}
+// .my-side ul.layui-nav li a i,
+.layui-nav .layui-nav-child a i,
+.layui-nav .layui-nav-item a i,
+.layui-tab-card > .layui-tab-title li span i {
+  margin-right: 5px;
+}
+.side-nav {
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  width: 200px;
+  z-index: 2;
+  overflow-x: hidden;
+  .layui-nav {
+    padding: 0 8px;
+    border-radius: 0;
+    min-height: 100%;
+  }
+  ul.layui-nav li dl dd a i {
+    margin-left: 15px;
+  }
+}
+.my-body .layui-tab-card > .layui-tab-title li {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.layui-layer-tips .layui-layer-content {
+  padding: 5px;
+}

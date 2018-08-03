@@ -1,0 +1,24 @@
+<!-- side -->
+<div class="layui-side side-nav plant-side-nav">
+    <div class="layui-side-scroll">
+        <ul class="layui-nav layui-nav-tree">
+            <div class="plant-side-nav-header">{{plant.navTitle}}(70)</div>
+            <div class="layui-tab" lay-filter="machineGroup">
+                <ul class="layui-tab-title">
+                    <li class="layui-this">1#机组</li>
+                    <li>2#机组</li>
+                </ul>
+                <div class="layui-tab-content">
+                    <div class="layui-tab-item layui-show">
+
+                    </div>
+                    <div class="layui-tab-item">内容2</div>
+                </div>
+            </div>
+        </ul>
+    </div>
+</div>
+<!-- body -->
+<div class="layui-body my-body">
+    <div ui-view></div>
+</div>

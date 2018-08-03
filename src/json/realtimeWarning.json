@@ -1,0 +1,21 @@
+{
+    "data": [{
+        "text": "黄河公司",
+        "icon": "&#xe620;",
+        "subset": [{
+            "id": "xining",
+            "text": "西宁电厂",
+            "icon": "&#xe621;",
+            "href": "plant"
+        }]
+    }, {
+        "text": "长江分公司",
+        "icon": "&#xe628;",
+        "subset": [{
+            "id":"hunan",
+            "text": "湖南电厂",
+            "icon": "&#xe621;",
+            "href": "plant"
+        }]
+    }]
+}

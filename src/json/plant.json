@@ -1,0 +1,50 @@
+{
+    "data": [{
+        "id":"dianqi",
+        "text": "电气",
+        "subset": [{
+                "id": "dianqi1",
+                "text": "变压器",
+                "icon": "&#xe621;",
+                "href": "machine"
+            },
+            {
+                "id": "dianqi2",
+                "text": "发电机",
+                "icon": "&#xe621;",
+                "href": "machine",
+                "warning": {
+                    "news": "#2定子冷却水泵电流",
+                    "actual": "69.36A",
+                    "predicted": "76.7155A"
+                }
+            }
+        ]
+    }, {
+        "id":"guolu",
+        "text": "锅炉",
+        "subset": [{
+                "id": "guolu1",
+                "text": "二级低温省煤器",
+                "icon": "&#xe621;",
+                "href": "machine",
+                "warning": {
+                    "news": "引风机B利用烟气温差",
+                    "actual": "-7.09",
+                    "predicted": "-0.6272"
+                }
+            },
+            {
+                "id": "guolu2",
+                "text": "空预器",
+                "icon": "&#xe621;",
+                "href": "machine",
+                "warning": {
+                    "news": "B侧送风降压",
+                    "actual": "0.75",
+                    "predicted": "0.632"
+                }
+            }
+        ]
+    }]
+}
